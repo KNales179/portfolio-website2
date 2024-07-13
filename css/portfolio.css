@@ -1,0 +1,61 @@
+#portfolio-section {
+    padding-top: 20px;
+}
+
+#portfolio-section h1 {
+    font-family: 'poppins', sans-serif;
+    text-transform: capitalize;
+    font-size: clamp(0.9375rem, 0.4435rem + 3.9516vw, 4rem);
+    margin: 0 0 0 50px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.project-container {
+    width: 320px; 
+    height: 600px; 
+    background-color: #ffffff;
+    margin: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgb(204, 204, 204);
+    flex: 1 1 320px;
+    overflow: hidden;
+}
+
+.top {
+    overflow: hidden;
+}
+
+.top img {
+    height: 336px;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+}
+
+.bottom {
+    width: calc(100% - 32px);
+    padding-left: 16px; 
+    overflow: hidden;
+}
+
+.bottom h4 {
+    font-size: 1.6rem; 
+    font-family: 'poppins', sans-serif;
+    color: #282938;
+    overflow: hidden;
+}
+
+.bottom a {
+    border-bottom: solid;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
